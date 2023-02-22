@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 rootProject.name = "ConventionPluginAndVersionCatalogPlayground"
 include ':app'
 include ':mylibrary'
+include ':build-logic'
