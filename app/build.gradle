@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android-conventions'
+    id 'apollo-kotlin-conventions'
 }
 
 android {

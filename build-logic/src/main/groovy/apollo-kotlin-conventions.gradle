@@ -1,0 +1,15 @@
+plugins {
+    id "com.apollographql.apollo3"
+}
+
+dependencies {
+    implementation "com.apollographql.apollo3:apollo-runtime:3.7.4"
+}
+
+apollo {
+    service("service") {
+        packageName.set("com.example.conventionpluginandversioncatalogplayground")
+        // https://www.apollographql.com/docs/kotlin/tutorial/02-add-the-graphql-schema
+        schemaFile.set(file("${rootProject.rootDir}/app/src/main/graphql/com/example/conventionpluginandversioncatalogplayground/schema.graphqls"))
+    }
+}
