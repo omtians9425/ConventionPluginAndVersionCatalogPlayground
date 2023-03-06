@@ -1,10 +1,10 @@
 plugins {
     id 'com.android.application'
-    id 'apollo-kotlin-conventions'
 }
 
 apply from: "${rootProject.rootDir}/compose.gradle"
 apply from: "${rootProject.rootDir}/android.gradle"
+apply from: "${rootProject.rootDir}/apollo.gradle"
 
 android {
     namespace 'com.example.conventionpluginandversioncatalogplayground'
