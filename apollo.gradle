@@ -1,4 +1,4 @@
-apply plugin: libs.plugins.apollo.kotlin // 不可
+apply plugin: 'com.apollographql.apollo3'
 
 dependencies {
     implementation libs.apollo.kotlin
