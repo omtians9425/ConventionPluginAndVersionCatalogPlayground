@@ -1,0 +1,24 @@
+[versions]
+androidGradlePlugin = "7.4.1"
+kotlin = "1.7.0"
+apolloKotlin = "3.7.4"
+composeBom = "2023.01.00"
+activityCompose = "1.3.1"
+composeCompiler = "1.2.0"
+
+[libraries]
+apollo-kotlin = { group = "com.apollographql.apollo3", name = "apollo-runtime", version.ref = "apolloKotlin" }
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+compose-ui = { group = "androidx.compose.ui", name = "ui" }
+compose-ui-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+compose-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+compose-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+compose-material = { group = "androidx.compose.material", name = "material" }
+activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+android-library = { id = "com.android.library", version.ref = "androidGradlePlugin" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+apollo-kotlin = { id = "com.apollographql.apollo3", version.ref = "apolloKotlin" }
