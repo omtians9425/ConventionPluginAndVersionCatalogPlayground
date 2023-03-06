@@ -1,6 +1,4 @@
-plugins {
-    id 'org.jetbrains.kotlin.android'
-}
+apply plugin: 'org.jetbrains.kotlin.android'
 
 android {
     compileSdk 33

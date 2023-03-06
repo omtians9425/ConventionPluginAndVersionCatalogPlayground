@@ -1,6 +1,4 @@
-plugins {
-    id "com.apollographql.apollo3"
-}
+apply plugin: 'com.apollographql.apollo3'
 
 dependencies {
     implementation libs.apollo.kotlin
