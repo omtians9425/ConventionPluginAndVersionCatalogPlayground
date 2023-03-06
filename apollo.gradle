@@ -1,0 +1,13 @@
+//apply plugin: libs.plugins.apollo.kotlin // 不可
+//
+//dependencies {
+//    implementation libs.apollo.kotlin
+//}
+//
+//apollo {
+//    service("service") {
+//        packageName.set("com.example.conventionpluginandversioncatalogplayground")
+//        // https://www.apollographql.com/docs/kotlin/tutorial/02-add-the-graphql-schema
+//        schemaFile.set(file("${rootProject.rootDir}/app/src/main/graphql/com/example/conventionpluginandversioncatalogplayground/schema.graphqls"))
+//    }
+//}
